@@ -1,6 +1,11 @@
-# Windows image file caches
+#
+## https://github.com/github/gitignore/blob/6ea349e0c8b6f671519a371dd78cea3936725654/Global/Windows.gitignore
+#
+
+# Windows thumbnail cache files
 Thumbs.db
 ehthumbs.db
+ehthumbs_vista.db
 
 # Folder config file
 Desktop.ini
@@ -17,31 +22,37 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# =========================
-# Operating System Files
-# =========================
+#
+## https://github.com/github/gitignore/blob/518aa9c65369abec311a5df5b4e1a5f796844727/Global/SublimeText.gitignore
+#
 
-# OSX
-# =========================
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
 
-.DS_Store
-.AppleDouble
-.LSOverride
+# workspace files are user-specific
+*.sublime-workspace
 
-# Thumbnails
-._*
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+# *.sublime-project
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
+# sftp configuration file
+sftp-config.json
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Package control specific files
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+Package Control.cache/
+Package Control.ca-certs/
+Package Control.merged-ca-bundle
+Package Control.user-ca-bundle
+oscrypto-ca-bundle.crt
+bh_unicode_properties.cache
+
+# Sublime-github package stores a github token in this file
+# https://packagecontrol.io/packages/sublime-github
+GitHub.sublime-settings
